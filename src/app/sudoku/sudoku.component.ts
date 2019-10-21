@@ -37,7 +37,7 @@ export class SudokuComponent implements OnInit {
   }
 
 
-  uploadDocument(file) {
+  uploadDocument() {
 
     let fileReader = new FileReader();
     fileReader.onload = (e) => {
